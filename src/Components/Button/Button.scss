@@ -1,0 +1,23 @@
+.botton{
+    display: flex;
+    align-items: center;
+    padding: 40px 32px 56px 32px;
+    .b-conteiner{
+        width: 100%;
+        padding: 20px 0px;
+        border: none;
+        border-radius: 8px;
+        background-color: var(--color3);
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--color5);
+        line-height: 16px;
+        letter-spacing: 0.8px;
+        font-style: normal;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    
+}
