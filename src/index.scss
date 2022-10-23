@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.b-conteiner{
+  width: 100%;
+  padding: 20px 0px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color3);
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color5);
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  font-style: normal;
+  margin-bottom: 54px;
+  &:hover{
+    cursor: pointer;
+  }
+}

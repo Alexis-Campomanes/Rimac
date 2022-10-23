@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.scss'
 
-const Button = () => {
+const Button = ({namebutton}) => {
     return (
         <div className='botton'>
-          <button className='b-conteiner'>cómo usar mi seguro</button>
+          <button className='b-conteiner b-cotizar'>{ namebutton }</button>
         </div>
     );
 }

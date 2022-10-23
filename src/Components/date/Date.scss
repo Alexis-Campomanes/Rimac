@@ -1,0 +1,60 @@
+.date{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:348px;
+    padding: 0 32px;
+    gap: 16px;
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .f-dni{
+            display: flex;
+            width: 100%;
+            >:nth-child(1){
+                display: flex;
+                align-items: center;
+                width: 96.67px;
+                padding: 0 16px;
+                border: 1px solid var(--color11);
+                border-right: none;
+                color: var(--color8);
+                font-family: 'Lato', sans-serif;    
+            }
+            >:nth-child(2){
+                width: 100%;
+            }
+        }
+        input{
+            height: 50px;
+            padding: 0 16px;
+            border: 1px solid var(--color11);
+            &::placeholder{
+                font-family: 'Lato', sans-serif;
+                color: var(--color10);
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 400;
+            }
+        }
+        .politica{
+            display: flex;
+            align-items: center;
+            
+           label{
+            display: flex;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+            color: var(--color4);
+            gap: 12px;
+            } 
+        
+        }
+        
+    }
+    }
