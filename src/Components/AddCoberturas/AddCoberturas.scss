@@ -1,0 +1,36 @@
+.addcobertura{
+    display: flex;
+    flex-direction: column;
+    padding-top: 36px;
+    >:nth-child(1){
+        padding-left: 32px;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        line-height: 28px;
+        color: var(--color8);
+    }
+    .protection{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.8px;
+        margin: 40px 20px 20px 24px;
+        gap: 20px;
+        text-align: center;
+        >:nth-child(1),
+        >:nth-child(2),
+        >:nth-child(3){
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        hr{
+            width: 100%;
+            border:1px solid var(--color2);
+        }
+    }
+}

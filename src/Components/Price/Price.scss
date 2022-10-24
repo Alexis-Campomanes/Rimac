@@ -1,0 +1,39 @@
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 76px;
+    padding: 0 32px;
+    .p-left{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lato', sans-serif;
+        color: var(--color8);
+        >:nth-child(1){
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.2px;  
+        }
+        >:nth-child(2){
+            font-size: 10px;
+            line-height: 16px;
+            letter-spacing: 0.8px;
+
+        }
+    }
+    .b-price{
+        width: 120px;
+        height: 44px;
+        font-size: 12px;
+        letter-spacing: 0.8px;
+        line-height: 16px;
+        border-radius: 6px;
+        font-family: 'Lato', sans-serif;
+        border: none;
+        color: #fff;
+        background-color: var(--color9);
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
