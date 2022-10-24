@@ -1,0 +1,17 @@
+@media screen and (min-width:1060px) {
+    .Home{
+        height: 100%;
+        .h-conteiner{
+            display: flex;
+            height: 100%;
+            width: 100%;
+                    >:nth-child(1){
+                    flex: 1;
+                    }
+                >:nth-child(2){
+                    flex: 1;
+                    }    
+        }
+         
+    }
+}

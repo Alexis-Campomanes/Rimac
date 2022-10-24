@@ -1,13 +1,21 @@
 .footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: none;
+}
+
+@media screen and (min-width:1060px) {
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 649px;
+        left: 121px;
     
     .copyright{
         display: flex;
         align-items: center;
         height: 75px;
-        padding: 0px 32px;
         color: var(--color6);
         font-weight: 300;
         font-family: 'Roboto', sans-serif;
@@ -15,7 +23,7 @@
         line-height: 20px;
     }
     hr{
-        border: 1px solid var(--color2);
-        width: 100%;
+        display: none;
+    }
     }
 }

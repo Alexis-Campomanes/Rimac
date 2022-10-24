@@ -19,5 +19,35 @@
         font-family: 'Roboto', sans-serif;
         color: var(--color1);
         gap: 0.5rem;
+        >:nth-child(1){
+            display: none;
+        }
+        >:nth-child(4){
+            display: none;
+        }
     }
    
+
+    @media screen and (min-width: 1060px) {
+        .navbar{
+            padding: 0px 120px;
+        }
+        .call {
+            >:nth-child(1){
+                display: block;
+                font-size: 12px;
+                line-height: 20px;
+                color: var(--color4);
+                padding-right: 23px;
+
+            }
+            >:nth-child(3){
+                display: none;
+            }
+            >:nth-child(4){
+                display: block;
+                line-height: 24px;
+            }
+        }
+        
+    }

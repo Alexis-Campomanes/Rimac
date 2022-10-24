@@ -17,10 +17,10 @@ const Date = () => {
             <div className='politica'>
               <label>
                 <input type="checkbox" />
-                Acepto de Politica de Protección de Datos Personales y los Términos y Condiciones.
+                Acepto de  Politica de Protección de Datos Personales y los Términos y Condiciones.
               </label>
             </div>
-            <button className='b-conteiner' type='submit'>COTÍZALO</button>
+            <button className='b-conteiner b-style' type='submit'>COTÍZALO</button>
           </form>
         </div>
     );

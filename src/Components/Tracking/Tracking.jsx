@@ -1,6 +1,8 @@
 import React from 'react';
-import './Tracking.scss'
-import grild from '../../Assets/Group 16833.svg'
+import './Tracking.scss';
+import grild from '../../Assets/Group 16833.svg';
+import bg from '../../Assets/background-tracking.svg';
+import grild2 from '../../Assets/Grild2.svg';
 
 const Tracking = () => {
     return (
@@ -13,6 +15,8 @@ const Tracking = () => {
           </div>
           <div className='t-left'>
             <img src={ grild } alt="" />
+            <img src={ grild2 } alt="" />
+            <img src={ bg } alt="" />
           </div>
           
 

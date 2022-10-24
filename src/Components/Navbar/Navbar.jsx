@@ -8,10 +8,12 @@ const Navbar = () => {
           <div className='navbar'>
             <img src={ logo } alt="" />
             <div className='call'>
+              <span>¿Tienes alguna duda?</span>
               <UilPhoneAlt style={{
                 color: 'var(--color1)'
               }}/>
               <span>Llámanos</span>
+              <span>(01) 411 6001</span>
             </div>
           </div>
     );

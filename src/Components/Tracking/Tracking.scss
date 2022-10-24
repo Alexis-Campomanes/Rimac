@@ -1,13 +1,16 @@
 .tracking{
     display: flex;
+    justify-content: space-between;
     background-color: var(--color7);
     height: 308px;
-    width: fit-content;
+    width: 100%;
     position: absolute;
+    gap: 0.5rem;
     .t-right{
         display: flex;
-        flex-direction: column;
         position: relative;
+        flex-direction: column;
+        
         top: 96px;
         left: 32px;
         >:nth-child(1){
@@ -41,11 +44,66 @@
         }
     }
     .t-left{
+        position: relative;
         >:nth-child(1){
             width: 112px;
             height: 276px;
             position: relative;
             top: 72px
+        }
+        >:nth-child(2){
+            display: none;
+        }
+        >:nth-child(3){
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width:1060px) {
+    .tracking{
+        height: 100vh;
+        background-color: transparent;
+        position: relative;
+        .t-right{
+            position: absolute;
+            z-index: 1;
+            top: 410px;
+            left: 184px;
+            >:nth-child(1){
+                font-size: 16px;
+            }
+            >:nth-child(2),
+            >:nth-child(3){
+                font-size: 36px;
+                line-height: 48px;
+            }
+            >:nth-child(4){
+                width: 288px;
+                height: 48px;
+            }
+            
+        }
+        .t-left{
+            >:nth-child(1){
+                display: none;
+            }
+            >:nth-child(2){
+                display: flex;
+                position: absolute;
+                z-index: 1;
+                top: 130px;
+                left: 190px;
+            }
+            >:nth-child(3){
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                max-width: 100vh;
+                height: 100%;
+
+            }
         }
     }
 }
